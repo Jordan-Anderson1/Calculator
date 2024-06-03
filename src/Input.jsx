@@ -10,7 +10,7 @@ const Input = ({ billAmount, setBillAmount, percentage, setPercentage, people, s
     <div className='flex flex-col mb-6 lg:w-[50%] lg:justify-center lg:p-16'>
         <h1 className='text-xl'>Bill</h1>
         <div className='flex w-[100%] flex-row bg-gray-200 p-2 px-4 rounded-lg mb-10'>
-            <img src="./src/assets/icon-dollar.svg"  />
+            <img src="/icon-dollar.svg"  />
             <input 
                 type="text"
                 value={billAmount}
@@ -58,7 +58,7 @@ const Input = ({ billAmount, setBillAmount, percentage, setPercentage, people, s
         <h1 className='text-xl'>Number of People</h1>
 
         <div className='flex flex-row p-2 px-4 bg-gray-200 rounded-lg'>
-            <img src="./src/assets/icon-person.svg" className='w-6 h-6' />
+            <img src="./icon-person.svg" className='w-6 h-6' />
             <input 
                 className='bg-transparent text-right ml-auto w-[100%] focus:outline-none'
                 type="text" 
